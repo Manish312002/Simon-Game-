@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background-color: #283149;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  
+  }
+  h2{
+    margin-top: 0;
+    color: whitesmoke;
+  }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+button {
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.red {
+    background: red;
+    color: red;
+}
+.blue {
+    background: rgb(65, 65, 245);
+    color: rgb(65, 65, 245);
+}
+.green {
+    background: green;
+    color: green;
+}
+.yellow {
+    background: yellow;
+    color: yellow;
+}
+
+
+.pressed {
+    opacity: 0.6;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    border: none;
+}
+
+.gameOver {
+    opacity: 0.8;
+    background: red;
+}
